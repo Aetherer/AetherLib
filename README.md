@@ -1,13 +1,10 @@
-
-#  AetherLib v1.0
+# ✨ AetherLib v1.0
 
 > A premium Roblox UI library with an **ethereal glassmorphism** aesthetic. Built for script executors who demand both beauty and performance.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Roblox-Lua-blue?style=for-the-badge&logo=roblox&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Version-1.0-purple?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
-</p>
+![Roblox](https://img.shields.io/badge/Roblox-Lua-blue?style=for-the-badge&logo=roblox&logoColor=white)
+![Version](https://img.shields.io/badge/Version-1.0-purple?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
@@ -193,9 +190,3 @@ MIT License — Free to use, modify, and distribute.
 <p align="center">
   <b>Made with 💜 for the Roblox scripting community</b>
 </p>
-'''
-
-with open('/mnt/agents/output/README.md', 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print("README.md created successfully!")
