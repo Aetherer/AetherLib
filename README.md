@@ -1,5 +1,5 @@
 
-readme_content = '''#  AetherLib v1.0
+#  AetherLib v1.0
 
 > A premium Roblox UI library with an **ethereal glassmorphism** aesthetic. Built for script executors who demand both beauty and performance.
 
