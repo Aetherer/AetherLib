@@ -2,11 +2,11 @@
 
 &gt; A premium Roblox UI library with an **ethereal glassmorphism** aesthetic. Built for script executors who demand both beauty and performance.
 
-&lt;p align="center"&gt;
-  &lt;img src="https://img.shields.io/badge/Roblox-Lua-blue?style=for-the-badge&logo=roblox&logoColor=white"/&gt;
-  &lt;img src="https://img.shields.io/badge/Version-1.0-purple?style=for-the-badge"/&gt;
-  &lt;img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/&gt;
-&lt;/p&gt;
+<p align="center">
+  <img src="https://img.shields.io/badge/Roblox-Lua-blue?style=for-the-badge&logo=roblox&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Version-1.0-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
+</p>
 
 ---
 
