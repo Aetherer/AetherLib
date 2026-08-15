@@ -1,2 +1,83 @@
-# AetherLib
-AetherLib v1.0 — A premium Roblox UI library with ethereal glassmorphism design, particle effects, smooth spring animations, and a cosmic color palette. Built for script executors with a focus on aesthetics and fluid UX.
+# ✨ AetherLib v1.0
+
+&gt; A premium Roblox UI library with an **ethereal glassmorphism** aesthetic. Built for script executors who demand both beauty and performance.
+
+&lt;p align="center"&gt;
+  &lt;img src="https://img.shields.io/badge/Roblox-Lua-blue?style=for-the-badge&logo=roblox&logoColor=white"/&gt;
+  &lt;img src="https://img.shields.io/badge/Version-1.0-purple?style=for-the-badge"/&gt;
+  &lt;img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/&gt;
+&lt;/p&gt;
+
+---
+
+## 🌌 Overview
+
+**AetherLib** is a next-generation Roblox UI library designed to stand out from the crowd. Unlike traditional dark-themed libraries, AetherLib features a **cosmic glassmorphism design** with floating particles, soft glows, and fluid spring animations — creating an interface that feels alive.
+
+### What Makes AetherLib Different?
+
+| Feature | AetherLib | Others |
+|---------|-----------|--------|
+| 🎨 Design | Cosmic Glassmorphism + Particles | Flat Dark Mode |
+| ✨ Effects | Glow, Particles, Gradient | None |
+| 🔊 Audio | Click/Hover/Toggle Sounds | Silent |
+| 🌊 Animations | Spring Physics + Back Easing | Basic Fade |
+| 📬 Notifications | Queued with Progress Bar | Overlapping |
+
+---
+
+## 🚀 Quick Start
+
+```lua
+local AetherLib = loadstring(game:HttpGet("YOUR_RAW_URL_HERE"))()
+
+-- Create Window
+local Window = AetherLib:CreateWindow({
+    Name = "Aether Hub",
+    Icon = "rbxassetid://7733965386",
+    Size = UDim2.new(0, 600, 0, 400)
+})
+
+-- Create Tab
+local MainTab = Window:CreateTab({
+    Name = "Main",
+    Icon = "rbxassetid://7733965386"
+})
+
+-- Add Components
+MainTab:CreateSection({Text = "General"})
+
+MainTab:CreateButton({
+    Name = "Execute",
+    Description = "Click to run script",
+    Callback = function()
+        print("Button clicked!")
+    end
+})
+
+MainTab:CreateToggle({
+    Name = "Auto Farm",
+    Default = false,
+    Callback = function(state)
+        print("Auto Farm:", state)
+    end
+})
+
+MainTab:CreateSlider({
+    Name = "Walk Speed",
+    Min = 16,
+    Max = 200,
+    Default = 16,
+    Suffix = " Studs/s",
+    Callback = function(val)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = val
+    end
+})
+
+-- Show notification
+AetherLib:Notify({
+    Title = "Welcome!",
+    Message = "AetherLib loaded successfully",
+    Type = "Success",
+    Duration = 5
+})
